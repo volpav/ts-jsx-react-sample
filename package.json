@@ -1,0 +1,17 @@
+{
+  "name": "ts-jsx-react-sample",
+  "version": "0.0.1",
+  "devDependencies": {
+    "browserify": "^11.2.0",
+    "del": "^2.0.2",
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-sass": "^2.0.4",
+    "gulp-typescript": "^2.9.0",
+    "typescript": "^1.6.2",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "dependencies": {
+    "react": "^0.13.3"
+  }
+}

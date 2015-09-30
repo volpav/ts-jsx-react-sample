@@ -1,0 +1,19 @@
+{
+    "compileOnSave": false,
+        
+    "filesGlob": [
+        "../typings/**/*.*.ts",
+        "**/*.ts",
+        "**/*.tsx"
+    ],
+    
+    "compilerOptions": {
+        "jsx": "react",
+        "target": "ES5",
+        "module": "commonjs",
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "noEmitOnError": true,
+        "sourceMap": false
+    }
+}
