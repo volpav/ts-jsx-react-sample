@@ -6,8 +6,8 @@ A very simple web project template which makes use of the following tools:
 - TypeScript
 - Sass
 - gulp
-- (TODO: Node.js)
-- (TODO: Express)
+- Node.js
+- Express
 
 The IDE being used was Visual Studio Code.
 
@@ -25,7 +25,12 @@ To run the client-side piece:
 	npm install -g http-server
 	http-server -p 3000
 
-Then visit http://localhost:3000 to see it in action.
+To run the Node app:
+
+	cd dist/
+	node app.js
+
+Visit http://localhost:3000 to see it in action. For the Node app, you can also try http://localhost:3000/api/ping to test out API routes set up by Express.
 
 ## Credits
 
