@@ -30,7 +30,7 @@ To run the Node app:
 	cd dist/
 	node app.js
 
-Visit http://localhost:3000 to see it in action. For the Node app, you can also try http://localhost:3000/api/ping to test out API routes set up by Express.
+Visit `http://localhost:3000` to see it in action. For the Node app, you can also try `http://localhost:3000/api/ping` to test out API routes set up by Express.
 
 ## Credits
 
