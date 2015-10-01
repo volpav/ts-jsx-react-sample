@@ -3,5 +3,25 @@
     "repo": "borisyankov/DefinitelyTyped",
     "ref": "master",
     "path": "typings",
-    "bundle": "typings/bundle.d.ts"
+    "bundle": "typings/bundle.d.ts",
+    "installed": {
+        "node/node.d.ts": {
+            "commit": "ebc69904eb78f94030d5d517b42db20867f679c0"
+        },
+        "mime/mime.d.ts": {
+            "commit": "ebc69904eb78f94030d5d517b42db20867f679c0"
+        },
+        "express/express.d.ts": {
+            "commit": "ebc69904eb78f94030d5d517b42db20867f679c0"
+        },
+        "serve-static/serve-static.d.ts": {
+            "commit": "ebc69904eb78f94030d5d517b42db20867f679c0"
+        },
+        "react/react.d.ts": {
+            "commit": "ebc69904eb78f94030d5d517b42db20867f679c0"
+        },
+        "body-parser/body-parser.d.ts": {
+            "commit": "ebc69904eb78f94030d5d517b42db20867f679c0"
+        }
+    }
 }

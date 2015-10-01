@@ -34,7 +34,12 @@ gulp.task('static:html', ['static:img'], function () {
     .pipe(gulp.dest('dist/client'));
 });
 
-gulp.task('bundle', ['ts', 'sass', 'static:html'], function () {
+gulp.task('node:dist', ['sass', 'static:html'], function () {
+  return gulp.src(['.tmp/**/*.js', '!.tmp/client/*'])
+    .pipe(gulp.dest('dist'));
+});
+
+gulp.task('bundle', ['ts', 'node:dist'], function () {
   var b = browserify('.tmp/client/bootstrap.js');
   
   return b.bundle()
