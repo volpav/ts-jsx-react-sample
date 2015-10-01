@@ -35,7 +35,7 @@ gulp.task('static:html', ['static:img'], function () {
 });
 
 gulp.task('node:dist', ['sass', 'static:html'], function () {
-  return gulp.src(['.tmp/**/*.js', '!.tmp/client/*'])
+  return gulp.src(['.tmp/**/*.js', '!.tmp/client/**/*'])
     .pipe(gulp.dest('dist'));
 });
 
