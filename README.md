@@ -26,3 +26,7 @@ To run the client-side piece:
 	http-server -p 3000
 
 Then visit http://localhost:3000 to see it in action.
+
+## Credits
+
+This template is largely based on [Quramy/tsc-react-example](https://github.com/Quramy/tsc-react-example).
