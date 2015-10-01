@@ -9,6 +9,7 @@ export interface LabelProperties {
 	text: string;
 }
 
+/** Represents a simple label. */
 export class Label extends Component<LabelProperties> {
 	/**
 	 * Initializes a new instance of an object.
