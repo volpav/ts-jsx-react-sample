@@ -1,4 +1,4 @@
-# ts-jsx-react-sample
+# Sample project with TypeScript (JSX), React and Node.js
 
 A very simple web project template which makes use of the following tools:
 
