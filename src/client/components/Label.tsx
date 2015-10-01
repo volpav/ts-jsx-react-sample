@@ -22,7 +22,7 @@ export class Label extends Component<LabelProperties> {
 	 * Renders the component body.
 	 * @returns {JSX.Element} Component XJS content.
 	 */
-	renderInternal() {
+	renderBody() {
 		return <label>{this.props.text}</label>;
 	}
 }

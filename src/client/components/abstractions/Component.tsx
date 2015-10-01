@@ -34,7 +34,7 @@ export abstract class Component<TProperties> extends React.Component<TProperties
 	 * Renders the component body.
 	 * @returns {JSX.Element} Component XJS content.
 	 */
-	abstract renderInternal(): JSX.Element;
+	abstract renderBody(): JSX.Element;
 	
 	/**
 	 * Renders the component.
@@ -48,11 +48,11 @@ export abstract class Component<TProperties> extends React.Component<TProperties
 			ret = React.createElement(
 				this.settings.tagName,
 				this.settings.className ? { 'className': this.settings.className } : null,
-				this.renderInternal()
+				this.renderBody()
 			);
 		} else {
 			/* No wrapping element, rendering only the body. */
-			ret = this.renderInternal();
+			ret = this.renderBody();
 		}
 		
 		return ret;
