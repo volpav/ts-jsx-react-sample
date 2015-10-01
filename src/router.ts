@@ -8,7 +8,7 @@ export class Router {
 	 * Initializes a new instance of an object.
 	 * @param routePrefix {string} Route prefix.
 	 */
-	constructor(private routePrefix: string = "/api") {}
+	constructor(private routePrefix: string = '/api') {}
 	
 	/**
 	 * Configures API routes.
@@ -22,8 +22,8 @@ export class Router {
 		var route = (relativePath: string) =>
 			this.routePrefix + '/' + relativePath;
 		
-		app.get(route('ping'), (req, res) => {
-			res.json({ time: new Date() });
+		app.get(route('time'), (req, res) => {
+			res.json({ result: new Date() });
 		});
 	}
 }
